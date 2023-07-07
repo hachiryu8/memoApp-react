@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^10.2.1",
+    "@use-expo/font": "^2.0.0",
     "expo": "^47.0.14",
     "expo-status-bar": "~1.4.4",
     "prop-types": "^15.7.2",

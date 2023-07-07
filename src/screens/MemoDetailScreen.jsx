@@ -18,7 +18,7 @@ export default function MemoListDetailScreen() {
           本文用なので使い方を間違えると不自然に見える事もありますので、要注意。
         </Text>
       </ScrollView>
-      <CircleButton style={{ top: 160, bottom: "auto" }} name="edit-2">
+      <CircleButton style={{ top: 160, bottom: "auto" }} name="pencil">
         +
       </CircleButton>
     </View>
