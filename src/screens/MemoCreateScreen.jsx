@@ -1,5 +1,5 @@
 import React from "react";
-import { View, StyleSheet, TextInput, Keyboard } from "react-native";
+import { View, StyleSheet, TextInput } from "react-native";
 import AppBar from "../components/AppBar";
 import CircleButton from "../components/CircleButton";
 import KeyboardSafeView from "../components/KeyboardSafeView";
