@@ -48,7 +48,10 @@ export default function MemoListDetailScreen(props) {
         style={{ top: 60, bottom: "auto" }}
         name="pencil"
         onPress={() => {
-          navigation.navigate("MemoEdit");
+          navigation.navigate("MemoEdit", {
+            id: memo.id,
+            bodyText: memo.bodyText,
+          });
         }}
       >
         +
