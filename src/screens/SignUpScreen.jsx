@@ -9,6 +9,7 @@ import {
   Alert,
 } from "react-native";
 import Button from "../components/Button";
+import { translateErrors } from "../utils/index";
 
 export default function SignUpScreen(props) {
   const { navigation } = props;
@@ -28,7 +29,8 @@ export default function SignUpScreen(props) {
         });
       })
       .catch((error) => {
-        Alert.alert(error.code);
+        const errorMsg = translateErrors(error.code);
+        Alert.alert(errorMsg.title, errorMsg.description);
         console.log(error.code, error.message);
       });
   }
